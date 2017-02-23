@@ -8,11 +8,16 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/pica.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+li {
+    height: 90px;
+    width: 150px;
 }
 
 h1,
@@ -36,6 +41,14 @@ p {
 hr {
     max-width: 400px;
     border-color: #999999;
+}
+
+.logo {
+    margin-top: -8px;
+    margin-left: -75px;
+    height: 7rem;
+    position: inherit;
+    float: left;
 }
 
 .brand,
@@ -105,8 +118,13 @@ hr {
 }   
 
 .img-responsive {
-    height: 250px;
     width: 250px;
+    height: auto;
+}
+
+.img-about {
+    width: 250px;
+    height: auto;
 }
 
 footer {
@@ -115,14 +133,14 @@ footer {
 }
 
 .footer-icon {
-    height: 25px;
-    width: 25px;
+    height: 10%;
+    width: 5%;
 }
 
-footer p {
+/*footer p {
     margin: 0;
-    padding: 50px 0;
-}
+    padding: -50px 0;
+}*/
 
 @media screen and (min-width:768px) {
     .brand {
