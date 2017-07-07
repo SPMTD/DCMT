@@ -219,4 +219,8 @@ footer {
         display: table;
         clear: both;
     }
+    .logo-img {
+    margin-left: 20%;
+}
+
 }
